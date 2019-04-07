@@ -38,5 +38,5 @@ vim cloudstorage\config.py
 gcloud app deploy
 ```
 
-## Set up backups
-
+## Change existing objects storage class
+gsutil -m rewrite -r -s NEARLINE -k gs://methyl-bucket-repo-bookshelf/*
