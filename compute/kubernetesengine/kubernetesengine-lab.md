@@ -35,3 +35,31 @@ kubectl create -f bookshelf-frontend.yaml
 kubectl get pods
 kubectl get services
 
+## Create a GKE cluster with CLI
+```Bash
+gcloud container clusters create methyl-gkecluster-lab-setup \
+--machine-type f1-micro \
+--num-nodes 3 \
+--network "projects/methyl-lab/global/networks/methyl-vpc-lab" \
+--subnetwork "projects/methyl-lab/regions/us-east4/subnetworks/methyl-subnet-lab-us-east4-r1"
+```
+
+## Change the cluster node pool size
+```bash
+gcloud container clusters resize methyl-gkecluster-lab-setup \
+--node-pool methyl-gkepool-lab-setup \
+--size 5
+```
+
+## Change the cluster auto-scaling
+```bash
+gcloud container clusters update methyl-gkecluster-lab-setup \
+--enable-autoscaling \
+--min-nodes 2 \
+--max-nodes 8
+```
+
+## Delete an existing cluster
+```bash
+gcloud container clusters delete methyl-gkecluster-lab-setup
+```
