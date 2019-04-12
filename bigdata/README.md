@@ -47,9 +47,35 @@ Pub/Sub is a middleware solution to handle Message Queue (MQ).
 
 ## What is the Big data lifecycle?
  1. Ingestion of the data
- 2. Process
- 3. Store
- 4. Analyze
+ 2. Store the data in a storage service
+ 3. Process and clean the data
+ 4. Analyze and visualize the data
+
+## What is the data lifecycle ingest phase?
+  - Acquire data from a source: IoT, Streaming, GCP services
+  - Source could be either streaming or batch
+  - Pub/Sub can handle millions of events per seconds, making it well suited for streaming
+  - Strict message ordering would require Dataflow
+
+## What is the data lifecycle store phase?
+ - unstructured with Cloud Storage
+ - Analytics with BigQuery
+ - NoSQL with Datastore (or BigTable if need of low-latency)
+ - SQL with Cloud SQL in single zone (or Spanner if need horizontal scaling)
+
+## What is the data lifecycle process phase?
+ - Analyze the data
+ - Dataproc for Hadoop analysis
+ - Dataflow is an ETL data processing pipeline
+ - Dataprep uses a UI to clean/visualize the data
+
+## What is the data lifecycle analyze phase?
+ - Provide the analyzed data to the user for consumption
+ - Visualize the data with filters and UI elements (Charts, Table, stats)
+
+## When to use Dataflow?
+ - Dataflow is useful when there is a need for a transform process
+ - Otherwise, the data could be sent directly from ingestion/storage to analysis.
 
 ## What is the lifecycle of a batch scenario?
  - Cloud Storage stores the data
@@ -60,7 +86,6 @@ Pub/Sub is a middleware solution to handle Message Queue (MQ).
  - Bigquery is used to store/analyze the data
  - Datalab/Tableau is used to visualize the data
 
-Alternatively bigt
 ## What is the lifecycle of a stream scenario?
  - Stream (IoT events)
    - Pub/Sub receives messages from devices

@@ -30,6 +30,7 @@
  - 375GB size
 
 ## Images
+### What are images?
  - Read-only copy of a disk used to deploy instances
  - Better taken when the OS is powered down
  - Image family allow grouping of image versions

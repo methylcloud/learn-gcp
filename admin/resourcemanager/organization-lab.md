@@ -30,3 +30,6 @@ vim iam.json
 gcloud projects set-iam-policy methyl-billing iam.json
 
 ## Role customization
+
+## Create an instance with labels
+gcloud compute instances create methyl-vm-lab10-labelscli --labels stack=methyl,environment=lab
