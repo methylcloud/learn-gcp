@@ -2,14 +2,14 @@
 
 ![Learn GCP banner](docs/images/learn-gcp-banner.png)
 
-GCP in a bash shell is an educational repository to share studying resources to learn Google Cloud Platform (GCP).
+GCP in a bash shell is an educational repository to share study resources to learn [Google Cloud Platform (GCP)][1].
 
 ## Goal
-It started as a personal project to store notes while preparing the Professional Cloud Architect certification. I found valuable the ability to revisit previous notes to help understand intricate concepts and have labs artifacts (lab procedures, code samples) handy. I hope this project could help others to study and pass their GCP certification exams.
+It started as a personal project to store notes while preparing the [Professional Cloud Architect][2] certification. I found valuable the ability to revisit previous notes to help understand intricate concepts and have labs artifacts (lab procedures, code samples) handy. I hope this project could help others to study and pass their GCP certification exams.
 
 ## Project Status
  - **Professional Cloud Architect (PCA)**
-   Unedited notes available in pca/
+   Unedited notes available in [docs/cert-pca/][3]
  - **Associate Cloud Engineer (ACE)**
    In Progress
 
@@ -23,7 +23,7 @@ The repository and notes are organized around a set of learning principles.
  - **Favor substance over form**
    In the interest of brevity, notes are edited and saved in Markdown format to focus on the content over the form.
  - **Allow spaced repetition learning**
-   The notes are taken in a way that structure information under a question. This approach enables readers to test themselves and reinforce learning by using the Markdown Code Folding feature in their editor/IDE. This is a crude but functional method to practice spaced repetition, a scientifically proven technique to maximize memory retention over time. A better future approach could rely on using Anki files.
+   The notes are taken in a way that structure information under a question. This approach enables readers to test themselves and reinforce learning by using the Markdown Code Folding feature in their editor/IDE. This is a crude but functional method to practice [spaced repetition][4], a scientifically proven technique to maximize memory retention over time. A better future approach could rely on using Anki files.
  - **Learning by doing**
    Most resources provide both theoretical and practical notes to get familiar with the technology in labs.
 
@@ -58,3 +58,9 @@ If you like the project and want to contribute, there are a few ways to get invo
 
  - Provide feedback, comments or requests as a Git issue
  - Add or edit content by cloning the repository, creating a feature/x branch and submit a Pull Request.
+
+[//]: # (URLS)
+[1]: https://cloud.google.com/
+[2]: https://cloud.google.com/certification/cloud-architect
+[3]: docs/cert-pca/
+[4]: https://en.wikipedia.org/wiki/Spaced_repetition
