@@ -13,6 +13,16 @@ It started as a personal project to store notes while preparing the [Professiona
  - **Associate Cloud Engineer (ACE)**
    In Progress
 
+## What is this project good for?
+ - Check if you are familiar with most of the concepts tested by the certification.
+ - Help learn and memorize important concepts required by the certifications.
+ - Practice labs to get familiar with core GCP services
+ - Provide a handy way to review/refresh your knowledge before taking the exam
+
+## What is this project **not** good for?
+ - Replace learning from more comprehensive sources (Courses, Official documentation, Qwiklabs)
+ - Take the certification exam without studying any other source than this repo.
+
 ## Learning principles
 The repository and notes are organized around a set of learning principles.
 
@@ -23,7 +33,7 @@ The repository and notes are organized around a set of learning principles.
  - **Favor substance over form**
    In the interest of brevity, notes are edited and saved in Markdown format to focus on the content over the form.
  - **Allow spaced repetition learning**
-   The notes are taken in a way that structure information under a question. This approach enables readers to test themselves and reinforce learning by using the Markdown Code Folding feature in their editor/IDE. This is a crude but functional method to practice [spaced repetition][4], a scientifically proven technique to maximize memory retention over time. A better future approach could rely on using Anki files.
+   The notes are taken in a way that structure information under a question. This approach enables readers to test themselves and reinforce learning by using the Markdown Code Folding feature in their editor/IDE. This is a crude but functional method to practice [spaced repetition][4], a scientifically proven technique to maximize memory retention over time. A better future approach could rely on using [Anki][5] files.
  - **Learning by doing**
    Most resources provide both theoretical and practical notes to get familiar with the technology in labs.
 
@@ -33,25 +43,15 @@ The notes are created under a few assumptions:
  - Readers are already familiar with basic concepts of computer systems and networks (internet, linux, script languages)
  - Readers have created a sandbox GCP environment
 
-## Folder structure
-  - ``common/`` used to store notes for common knowledge shared and tested across certifications
-  - ``pca/`` folder to store notes specific about a certification
-  - ``pca/compute`` subfolder to categorize GCP services by family
-  - ``pca/compute/computeengine`` subfolder to store notes on a GCP service
-  - ``pca/.certs/`` subfolder to store notes about certification expectations and non-technical knowledge
-
 ## Lab organization
 The lab section of the notes were created taking the example of methyl.cloud. A fictional organization name to work with a domain and GCP organization. Readers are advised to create their own organization and substitute "methyl" mention by their own lab environment name.
 
-## What is this project good for?
- - Check if you are familiar with most of the concepts tested by the certification.
- - Help learn and memorize important concepts required by the certifications.
- - Practice labs to get familiar with core GCP services
- - Provide a handy way to review/refresh your knowledge before taking the exam
-
-## What is this project **not** good for?
- - Replace learning from more comprehensive sources (Courses, Official documentation, Qwiklabs)
- - Take the certification exam without studying any other source than this repo.
+## Folder structure
+  - ``docs/common/`` used to store notes for common knowledge shared and tested across certifications
+  - ``docs/cert-pca/`` folder to store notes specific about a certification
+  - ``docs/cert-pca/_general/`` subfolder to store notes about certification expectations and non-technical knowledge
+  - ``docs/cert-pca/compute`` subfolder to categorize GCP services by family
+  - ``docs/cert-pca/compute/computeengine`` subfolder to store notes on a GCP service
 
 ## Contributing
 If you like the project and want to contribute, there are a few ways to get involved:
@@ -64,3 +64,4 @@ If you like the project and want to contribute, there are a few ways to get invo
 [2]: https://cloud.google.com/certification/cloud-architect
 [3]: docs/cert-pca/
 [4]: https://en.wikipedia.org/wiki/Spaced_repetition
+[5]: https://apps.ankiweb.net/
