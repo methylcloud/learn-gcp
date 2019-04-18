@@ -15,3 +15,8 @@ The notes for the Associate Cloud Engineer (ACE) were taken while studying from 
 
 ## Notes resources
  - [Exam related topics](_general/)
+ - [IAM and Admin](admin/)
+ - [Compute](compute/)
+ - [Networking](networking/)
+ - [Storage](storage/)
+ - [Tools](tools/)

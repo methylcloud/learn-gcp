@@ -3,7 +3,7 @@
 ## How do you decide the right storage option?
 > Knowledge assessed at least one other exam. Open the link to see the common note shared between certifications.
 
-[docs/common/storage][../docs/common/storage#how-do-you-decide-the-right-storage-option]
+[docs/common/storage](../../common/storage#how-do-you-decide-the-right-storage-option)
 
 ## How to calculate storage costs?
  - Use dry run option (--dry-run in CLI) to estimate the size of the returned data in bytes
