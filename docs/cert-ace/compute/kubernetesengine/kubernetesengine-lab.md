@@ -11,4 +11,3 @@
       - Namespace: methyl-gkenamespace-lab-nginx
       - Labels: stack:methyl;environment:lab
       - Zone: us-east4-a
-
