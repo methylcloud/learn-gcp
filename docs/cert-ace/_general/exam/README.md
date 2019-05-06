@@ -14,3 +14,8 @@
  - Practice deploying using the CLI commands
  - Read the GCP official documentation
  - Take the Associate Cloud Engineer [Practice Exam][https://cloud.google.com/certification/practice-exam/cloud-engineer]
+
+##
+ - gae service deployer
+ - ks  service type ClusterIP
+ - gcloud iam list-grantablerole
