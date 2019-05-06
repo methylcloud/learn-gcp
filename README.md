@@ -11,7 +11,7 @@ It started as a personal project to store notes while preparing the [Professiona
  - **Professional Cloud Architect (PCA)**
    Unedited notes available in [docs/cert-pca/][3]
  - **Associate Cloud Engineer (ACE)**
-   In Progress
+   Unedited notes available in [docs/cert-ace/][6]
 
 ## What is this project good for?
  - Check if you are familiar with most of the concepts tested by the certification.
@@ -65,3 +65,4 @@ If you like the project and want to contribute, there are a few ways to get invo
 [3]: docs/cert-pca/
 [4]: https://en.wikipedia.org/wiki/Spaced_repetition
 [5]: https://apps.ankiweb.net/
+[6]: docs/cert-ace/
